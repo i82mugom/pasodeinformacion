@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".act1">
+
+    <TextView
+        android:id="@+id/textViewtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actividad 1:"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="funcioncerrarydevolver"
+        android:text="Cerrar y devolver" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="funcioncerrarynodevolver"
+        android:text="Cerrar y no devolver" />
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paso de informacion"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre" />
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="--Id" />
+
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+  android:onClick="funcioneditarperfil"
+        android:text="Edicion" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="funcionactivity1"
+        android:text="Paso de informacion 1" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:onClick="funcionactivity2"
+        android:layout_height="wrap_content"
+        android:text="Paso de informacion 2" />
+
+    <TextView
+        android:id="@+id/textViewPoblacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poblacion:" />
+
+    <TextView
+        android:id="@+id/textViewPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Peso:" />
+
+    <TextView
+        android:id="@+id/textViewAltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Altura:" />
+</LinearLayout>
